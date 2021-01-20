@@ -23,6 +23,7 @@ class VendingMachine {
             try
             {
                 if(Qty[itemNumber-1] <= 0)
+
                     throw new Exception();
 
                 makePayment(itemNumber);
